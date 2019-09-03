@@ -6,7 +6,7 @@
 /*   By: alanders <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/03 09:06:01 by alanders          #+#    #+#             */
-/*   Updated: 2019/09/03 09:08:42 by alanders         ###   ########.fr       */
+/*   Updated: 2019/09/03 09:45:21 by alanders         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putposnbr(int n)
 	ft_putchar(n % 10 + '0');
 }
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	argv = 0;
 	ft_putposnbr(argc - 1);

@@ -1,0 +1,126 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+c3r3s6.wethinkcode.co.za
+Darwin 18.7.0 x86_64
+$> date
+Tue Sep  3 08:38:07 SAST 2019
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/c++/4.2.1
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190903/alanders
+
+= Git history ==================================================================
+$> git -C /tmp/tmpWCNi9d/user log --pretty='%H - %an, %ad : %s'
+1f88acc2a056b459dd138622405928d43a3a5bcd - Alexan ANDERSON, Tue Sep 3 08:38:00 2019 +0200 : d
+ba271688dfeee5841c7cc97a20f6e703da0beb02 - Alexan ANDERSON, Tue Sep 3 08:05:50 2019 +0200 : d
+bb1aa6ee14d8fec6bd863b0ee5f0c14f99795b44 - Alexan ANDERSON, Tue Sep 3 08:05:33 2019 +0200 : fd
+ 
+= Collected files ==========================================
+$> ls -lAR /tmp/tmpWCNi9d/user
+total 8
+-rw-r--r--  1 root  wheel  793 Sep  3 08:38 __GIT_HISTORY
+drwxr-xr-x  3 root  wheel   96 Sep  3 08:38 fprime
+drwxr-xr-x  3 root  wheel   96 Sep  3 08:38 paramsum
+
+/tmp/tmpWCNi9d/user/fprime:
+total 8
+-rw-r--r--  1 root  wheel  1324 Sep  3 08:38 fprime.c
+
+/tmp/tmpWCNi9d/user/paramsum:
+total 8
+-rw-r--r--  1 root  wheel  1137 Sep  3 08:38 paramsum.c
+ 
+= fprime =======================================================================
+$> gcc -Wextra -Wall -Werror fprime.c -o user_exe 
+gcc: error: unable to read SDK settings for '/'
+gcc: warning: unable to determine the version of the host OS
+
+= Test 1 ===================================================
+$> ./6hf0iw2f9t8sv9sjcrteelp8 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./dnm8ma3l00racjh78bx98x67 "1" "2" "3" "4" "5" "6"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./8mylui4ff91uweblyo0b9mf3 59
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./1chsfohrizt9vl73fxcxj4zh 198
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./2g98qw1url4jcnqbzu44mmo4 42
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./ylb60klq0jbyy7p5r01546sf 193
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./0oj6fit9s9dujw4t2fbonhb2 7
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./lp1n1oz575660vfljcpw2u69 143
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./gp4c1husc3j2n640tlo3d4jn 22
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./5rvgaij82frp0otbm7t8iapr 171
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./the9r0i7ve626i8ya878d19t 323812
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./b2j1zh9jpjm62020c14p7xhx 1295288
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+= Test 13 ==================================================
+$> ./3x1b0azadfgt0ygircuk02jw 750763
+$> diff -U 3 user_output_test13 test13.output | cat -e
+
+Diff OK :D
+= Test 14 ==================================================
+$> ./sx533aox4958xnz5s5m4th28 346325
+$> diff -U 3 user_output_test14 test14.output | cat -e
+
+Diff OK :D
+= Test 15 ==================================================
+$> ./pwlnrlfte4skjof9ahakis76 1798302
+$> diff -U 3 user_output_test15 test15.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
